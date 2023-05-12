@@ -27,8 +27,8 @@
  - MySql
 
 ## Руководство:
-1. В папке recources/sql находится скрипт БД. 
-2. Поменять spring.datasource.username и spring.datasource.password на данные вашей БД.
+1. В папке recources/sql находится скрипт для создания БД. 
+2. В application.properties поменять spring.datasource.username и spring.datasource.password на данные вашей БД.
 3. Просмотр списка доступных криптовалют (REST-метод) 
 http://localhost:8080/V1/show
 4. Просмотр актуальной цены для указаной криптовалюты (REST-метод - код валюты передается пользователем)
